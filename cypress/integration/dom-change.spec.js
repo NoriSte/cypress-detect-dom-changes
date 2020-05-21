@@ -1,6 +1,6 @@
 /// <reference types="Cypress" />
 
-context('Cypress Wait Until', () => {
+context('DOM change detection', () => {
   let mutationsHistory
   beforeEach(() => {
     cy.visit('/')

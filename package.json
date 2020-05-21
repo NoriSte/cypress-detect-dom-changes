@@ -1,0 +1,30 @@
+{
+  "name": "cypress-detect-dom-changes",
+  "version": "1.0.0",
+  "description": "Solution for https://github.com/NoriSte/cypress-wait-until/issues/136",
+  "main": "src/index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "cypress": "4.6.0",
+    "cypress-wait-until": "^1.7.1",
+    "serve": "11.3.0",
+    "start-server-and-test": "1.11.0"
+  },
+  "scripts": {
+    "start": "serve public",
+    "cy:open": "cypress open",
+    "test": "npm run cy:start-server-and-test",
+    "cy:start-server-and-test": "start-server-and-test start :5000 cy:run",
+    "cy:run": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NoriSte/cypress-detect-dom-changes.git"
+  },
+  "author": "NoriSte <nori.ste.magni@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NoriSte/cypress-detect-dom-changes/issues"
+  },
+  "homepage": "https://github.com/NoriSte/cypress-detect-dom-changes#readme"
+}

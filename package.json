@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "dependencies": {},
   "devDependencies": {
-    "cypress": "5.1.0",
+    "cypress": "5.2.0",
     "cypress-wait-until": "1.7.1",
     "serve": "11.3.2",
     "start-server-and-test": "1.11.3"
